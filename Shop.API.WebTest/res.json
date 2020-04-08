@@ -1,0 +1,17 @@
+{
+    "user": {
+        "id": 1,
+        "name": "Natali",
+        "lastname": "Enot",
+        "login": "natathebest",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjpbIlN1cGVyQWRtaW4iLCJBZG1pbiJdLCJ1bmlxdWVfbmFtZSI6Ik5hdGFsaSIsIm5iZiI6MTU4NTczODEwNywiZXhwIjoxNTg1NzM5OTA3LCJpYXQiOjE1ODU3MzgxMDd9.Y94EXxe7_pGDctzJbjXzSC_9-c5HsBmZGT-4KdUYmwY",
+        "role": [
+            "SuperAdmin",
+            "Admin"
+        ]
+    },
+    "message": "",
+    "success": true
+}
+
+

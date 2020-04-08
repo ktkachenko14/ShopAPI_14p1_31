@@ -1,0 +1,24 @@
+
+.delBtn {
+    cursor: pointer;
+}
+
+.createBtn {
+    cursor: pointer;
+}
+
+.editBtn {
+    cursor: pointer;
+}
+
+.saveBtn {
+    cursor: pointer;
+}
+
+.cancelBtn {
+    cursor: pointer;
+}
+
+#logoutBtn {
+    cursor: pointer;
+}

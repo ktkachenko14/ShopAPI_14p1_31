@@ -1,0 +1,27 @@
+# GET http://localhost:5000/api/categories
+
+
+# POST http://localhost:5000/api/categories
+# Content-Type: application/json
+
+# {
+#     "Name": "Tablet"
+# }
+
+# PUT http://localhost:5000/api/categories/100443
+# Content-Type: application/json
+
+# {
+#     "Name": "Laptop"
+# }
+
+ GET http://localhost:5000/api/categories
+ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5hdGFsaSIsIm5iZiI6MTU4NDk2MzU2MCwiZXhwIjoxNTg0OTYzNjgwLCJpYXQiOjE1ODQ5NjM1NjB9.ugmR5hf0BT_tI3cvEozNpvPH5NI2vra9IIxHpBbMirA
+
+# POST http://localhost:5000/api/auth/authenticate
+# Content-Type: application/json
+
+# {
+#     "Login":"natathebest",
+#     "Password":"iloveenot"
+# }

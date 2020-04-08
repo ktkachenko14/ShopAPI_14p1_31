@@ -1,0 +1,21 @@
+# GET http://localhost:5000/api/roles
+
+
+
+# PUT http://localhost:5000/api/userroles/deleterole/1000
+# Content-Type: application/json
+
+# {
+#     "RoleId": 1000
+# }
+
+
+GET http://localhost:5000/api/products
+
+# PUT http://localhost:5000/api/products/1
+# Content-Type: application/json
+
+# {
+#     "Name":"!!!!!!!",
+#     "GoodCount": 10
+# }
