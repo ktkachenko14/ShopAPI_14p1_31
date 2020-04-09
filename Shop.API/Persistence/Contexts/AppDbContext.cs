@@ -129,14 +129,8 @@ namespace Shop.API.Persistence.Contexts
                     Name = "MacBook",
                     GoodCount = 16,
                     CategoryId = 1000
-                },
-                new Product
-                {
-                    Id = 12000,
-                    Name = "Tea",
-                    GoodCount = 10
-    
                 }
+                
 
             );
 
