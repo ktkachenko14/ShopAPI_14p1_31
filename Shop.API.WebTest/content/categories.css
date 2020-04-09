@@ -22,3 +22,7 @@
 #logoutBtn {
     cursor: pointer;
 }
+
+body{
+    background: pink;
+}
