@@ -10,12 +10,15 @@
 # }
 
 
-GET http://localhost:5000/api/products
-
-# PUT http://localhost:5000/api/products/1
+# POST http://localhost:5000/api/auth/authenticate
 # Content-Type: application/json
 
 # {
-#     "Name":"!!!!!!!",
-#     "GoodCount": 10
+#     "Login":"natathebest",
+#     "Password":"iloveenot"
 # }
+
+
+DELETE http://localhost:5000/api/roles/66
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjpbIlN1cGVyQWRtaW4iLCJBZG1pbiJdLCJ1bmlxdWVfbmFtZSI6Ik5hdGFsaSIsIm5iZiI6MTU4NjQyNzY5OCwiZXhwIjoxNTg2NDI5NDk4LCJpYXQiOjE1ODY0Mjc2OTh9.FmqcyzYge_5Pf_I-h0RCtX7MNKJVfrYhBg-ub6G7tQo

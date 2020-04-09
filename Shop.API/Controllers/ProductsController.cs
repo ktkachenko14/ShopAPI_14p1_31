@@ -48,7 +48,7 @@ namespace Shop.API.Controllers
         }
 
 
-        //[Authorize(Roles="Admin")]
+        [Authorize(Roles="Admin")]
         [HttpPost]
         public async Task<IActionResult> PostAsync([FromBody] SaveProductResource resource)
         {
@@ -63,7 +63,7 @@ namespace Shop.API.Controllers
 
         }
 
-        //[Authorize(Roles="Admin")]
+        [Authorize(Roles="Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAsync(int id, [FromBody] SaveProductResource resource)
         {

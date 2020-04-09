@@ -67,9 +67,7 @@ namespace Shop.API.Services
 
             existingUser.Name = user.Name;
             existingUser.Lastname = user.Lastname;
-            //existingUser.Role = user.Role;
-            //existingUser.Password = user.Password;
-            //existingUser.Login = user.Login;
+            existingUser.Password = user.Password;
 
             try
             {
